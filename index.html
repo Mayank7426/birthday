@@ -421,7 +421,7 @@
       #wishesBox,
       #finalMessage,
       #photoGallery {
-        width: 85%;
+        width: 100%;
         padding: 25px;
       }
 
@@ -465,30 +465,29 @@
       }
 
       #startContent {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 446px;
+    height: 765px;
     text-align: center;
-    z-index: 20;
-    width: 456px;
-    background: rgba(255, 255, 255, 0.85);
-    padding: 60px;
-    border-radius: 20px;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
 }
 #startContent h1 {
     color: lightpink;
-    font-size: 47px;
+    font-size: 45px;
     font-weight: 400;
     font-family: cursive;
-    margin-bottom: 12px;
+    margin-bottom: 80px;
 }
-#kittyGif {
-    width: 335px;
+#startBtn {
+    background-color: #ff1493;
+    border: none;
+    color: white;
+    padding: 10px 37px;
+    font-size: 37px;
     border-radius: 30px;
-    margin-bottom: 20px;
-    box-shadow: 0 10px 20px rgba(255, 192, 203, 0.7);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 8px 15px rgba(255, 20, 147, 0.6);
+    font-family: cursive;
 }
     }
   </style>
