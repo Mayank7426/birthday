@@ -312,110 +312,7 @@
       background-color: #ad1457;
     }
 
-    /* @media (max-width: 480px) {
-
-      #startContent,
-      #envelope,
-      #wishesBox,
-      #finalMessage,
-      #photoGallery {
-        width: 90%;
-        padding: 20px;
-      }
-
-      #startContent h1 {
-        font-size: 1.4rem;
-      }
-
-      #kittyGif {
-        width: 150px;
-        margin-bottom: 15px;
-      }
-
-      #startBtn,
-      #seeMoreBtn,
-      #galleryBtn,
-      #hideGalleryBtn,
-      .backBtn {
-        font-size: 1rem;
-        padding: 8px 25px;
-      }
-
-      #helloMsg {
-        font-size: 1.2rem;
-      }
-
-      #wishesBox h2 {
-        font-size: 1.8rem;
-      }
-
-      #wishesBox p,
-      #finalText {
-        font-size: 1rem;
-      }
-
-      #wishesBox img {
-        max-width: 90px;
-        margin-bottom: 15px;
-      }
-
-      #galleryImages img {
-        width: 45%;
-        height: auto;
-      }
-      #startContent {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: 20;
-    width: 375px;
-    background: rgba(255, 255, 255, 0.85);
-    padding: 74px;
-    border-radius: 20px;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
-}
-#startContent h1 {
-    color: lightpink;
-    font-size: 39px;
-    font-weight: 400;
-    font-family: cursive;
-    margin-bottom: 12px;
-}
-#kittyGif {
-    width: 260px;
-    border-radius: 30px;
-    margin-bottom: 20px;
-    box-shadow: 0 10px 20px rgba(255, 192, 203, 0.7);
-}#startBtn {
-    background-color: #ff1493;
-    border: none;
-    color: white;
-    padding: 16px 42px;
-    font-size: 33px;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    box-shadow: 0 8px 15px rgba(255, 20, 147, 0.6);
-    font-family: cursive;
-}
-    } */
-    /* #startContent {
-  width: 90%;
-  max-width: 340px;
-}
-#envelope {
-  width: 90%;
-  max-width: 240px;
-}
-#wishesBox, #finalMessage, #photoGallery {
-  width: 90%;
-  max-width: 360px;
-} */
-
-
-    /* Medium phones to small tablets: 481px–720px */
+    
     @media (min-width: 320px) and (max-width: 720px) {
 
 #startContent {
@@ -485,80 +382,26 @@
     box-shadow: 0 10px 20px rgba(255, 20, 147, 0.3);
     display: none;
 }
-
-      /* #startContent,
-      #envelope,
-      #wishesBox,
-      #finalMessage,
-      #photoGallery {
-        width: 100%;
-        padding: 25px;
-      }
-
-      #startContent h1 {
-        font-size: 1.6rem;
-      }
-
-      #kittyGif {
-        width: 180px;
-      }
-
-      #startBtn,
-      #seeMoreBtn,
-      #galleryBtn,
-      #hideGalleryBtn,
-      .backBtn {
-        font-size: 1.1rem;
-        padding: 10px 30px;
-      }
-
-      #helloMsg {
-        font-size: 1.3rem;
-      }
-
-      #wishesBox h2 {
-        font-size: 2rem;
-      }
-
-      #wishesBox p,
-      #finalText {
-        font-size: 1.1rem;
-      }
-
-      #wishesBox img {
-        max-width: 110px;
-      }
-
-      #galleryImages img {
-        width: 100px;
-        height: auto;
-      }
-
-      #startContent {
-    width: 90%;
-    max-width: 446px;
-    height: 765px;
-    text-align: center;
+#photoGallery {
+    max-width: 360px;
+    margin: 10px auto 30px;
+    display: none;
+    padding: 15px;
+    background: #fff0f6;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(255, 20, 147, 0.2);
+    animation: fadeInScale 0.5s ease forwards;
 }
-#startContent h1 {
-    color: lightpink;
-    font-size: 45px;
-    font-weight: 400;
-    font-family: cursive;
-    margin-bottom: 80px;
-}
-#startBtn {
-    background-color: #ff1493;
-    border: none;
-    color: white;
-    padding: 10px 37px;
-    font-size: 37px;
-    border-radius: 30px;
+#galleryImages img {
+    width: 150px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(255, 20, 147, 0.3);
     cursor: pointer;
-    transition: background-color 0.3s ease;
-    box-shadow: 0 8px 15px rgba(255, 20, 147, 0.6);
-    font-family: cursive;
-} */
+    transition: transform 0.3s ease;
+}
+     
     }
   </style>
 </head>
